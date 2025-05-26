@@ -22,7 +22,7 @@ export default defineConfig({
   port: 3002,
   proxy: {
    "/api": {
-    target: "https://survei-app.up.railway.app",
+    target: process.env.VITE_BASE_URL,
     changeOrigin: true,
     secure: false
    }
