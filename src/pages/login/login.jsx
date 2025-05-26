@@ -5,7 +5,7 @@ import { useNavigate } from'react-router-dom';
 import { AlertDangerComponent } from "../../components/alert/alert.jsx";
 import "bootstrap/dist/css/bootstrap.min.css"
 import useLoginAdminHooks from "../../hooks/login.jsx"
-import "./Login.css"
+import "./login.css"
 
 
 const LoginPage = () => {
