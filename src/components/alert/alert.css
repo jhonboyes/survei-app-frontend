@@ -1,0 +1,3 @@
+.alert {
+  z-index: 9999; /* Alert berada di atas loader */
+}

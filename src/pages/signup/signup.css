@@ -1,0 +1,54 @@
+.signup-wrapper {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+img.signup-logo {
+ width: 80px;
+ height: 90px;
+}
+
+#logo {
+ background: #c3c5c5;
+ padding: 10px 10px;
+ position: relative; /* Tambahkan ini */
+ z-index: 1; /* Tambahkan ini, pastikan lebih tinggi dari z-index loader jika ada */
+}
+
+.card {
+ background: #c3c5c5;
+ border: 10px solid #938163;
+ top: 50px;
+}
+
+.signup-card.card {
+ background: #9b9d9d;
+ border: 10px solid #938163;
+ top: 50px;
+ left: 20px;
+ width: 50%;
+ display: flex;
+ justify-content: center;
+}
+
+.card-title {
+ text-align: center;
+ font-family: "Times New Roman", Times, serif;
+ font-weight: bold;
+ margin-top: 10px;
+}
+
+label.form-label {
+ display: block;
+ text-align: left;
+ margin: 10px;
+ font-family: "Times New Roman", Times, serif;
+}
+
+.button.btn-btn {
+ display: flex;
+ justify-content: space-between;
+ margin: 10px 5px;
+}

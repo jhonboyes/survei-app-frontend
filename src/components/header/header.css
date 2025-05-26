@@ -1,0 +1,35 @@
+.header {
+ display: flex;
+ align-items: center;
+ justify-content: center; /* ini yang bikin posisinya ke tengah */
+ gap: 1rem;
+ background: #3d6646;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ border-bottom: solid 5px #615e41;
+}
+img.header-logo {
+ width: 50px;
+}
+
+.header-right {
+ position: absolute;
+ right: 20px;
+}
+
+.identicon-header {
+ display: flex;
+ border-radius: 5%;
+ width: 120px;
+ border: 2px solid #ffffff;
+ background-color: #f7f7f7;
+ flex-direction: row-reverse;
+ align-content: center;
+ justify-content: space-between;
+ align-items: center;
+ /* gap: 2px; */
+ padding: 0px 5px;
+ font-size: medium;
+ font-weight: 700;
+ cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.identicon {
+ border-radius: 50%;
+ width: 50px;
+ height: 50px;
+ border: 2px solid #ffffff;
+ background-color: #ffffff;
+ overflow: hidden;
+ display: inline-block;
+ cursor: pointer;
+ margin-top: 5px;
+}
+img.identicon {
+ border-radius: 50%;
+ border-color: solid 2px #000;
+ display: block;
+}

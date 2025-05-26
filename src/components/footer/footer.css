@@ -1,0 +1,11 @@
+footer.dashboard-footer{
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: #3d6646;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-top: solid 2px #615e41;
+}
